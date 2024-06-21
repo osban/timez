@@ -1,0 +1,2 @@
+#!/bin/sh
+find . -name '*.janet' | entr  -c -c -a -r janet src/main.janet

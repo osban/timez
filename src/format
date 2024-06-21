@@ -1,0 +1,2 @@
+#!/bin/sh
+janet -e '(import spork/fmt) (fmt/format-file "'$1'")'
