@@ -5,9 +5,10 @@ Used:
 - language: Janet
 - database: sqlite3
 - css: Tailwind
-- pdf creation: wkhtmltopdf (install before use)
+- pdf creation: wkhtmltopdf
 
 Notes:
+- install janet, sqlite3, and wkhtmltopdf
 - server listens on port 8000
 - database will be created in `/src/data`
 - temp html and pdf will be created in `/src/files`
